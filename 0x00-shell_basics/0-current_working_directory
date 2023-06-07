@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "Current working directory: "; pwd
+printf "Current working directory: %s\n" "$(pwd)"
