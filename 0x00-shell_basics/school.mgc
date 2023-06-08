@@ -1,1 +1,2 @@
+#!/bin/bash
 file -m school.mgc * | awk '{printf "%s: %s\n", $1, $2}'
